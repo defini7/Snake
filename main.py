@@ -4,8 +4,6 @@ from random import randrange
 RES = 700
 SIZE = 50
 
-print("Made for CS50 by definit.\nFinal Project!")
-
 menu_screen = pygame.Surface((300, 100))
 x, y = randrange(SIZE, RES - SIZE, SIZE), randrange(SIZE, RES - SIZE, SIZE)
 apple = randrange(SIZE, RES - SIZE, SIZE), randrange(SIZE, RES - SIZE, SIZE)
