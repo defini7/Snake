@@ -59,7 +59,7 @@ while game == True:
     if x < 0 or x > RES - SIZE or y < 0 or y > RES - SIZE or len(snake) != len(set(snake)):
         over = True
         while True:
-            render_end = font_end.render(f'GAME OVER! YOUR SCORE: {score}.', 1, pygame.Color('blue'))
+            render_end = font_end.render(f'GAME OVER!', 1, pygame.Color('blue'))
             surface.blit(render_end, (RES // 2 - 200, RES // 3))
             pygame.display.flip()
             close_game()
