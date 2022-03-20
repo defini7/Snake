@@ -60,7 +60,7 @@ while game == True:
         over = True
         while True:
             render_end = font_end.render('GAME OVER!', 1, pygame.Color('blue'))
-            surface.blit(render_end, (RES // 2 - 200, RES // 3))
+            surface.blit(render_end, (RES // 2 - 100, RES // 2))
             pygame.display.flip()
             close_game()
 
